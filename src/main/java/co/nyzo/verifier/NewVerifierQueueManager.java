@@ -10,8 +10,8 @@ import java.util.*;
 
 public class NewVerifierQueueManager {
 
-    // The wait time for the lottery is 30 days.
-    public static final long lotteryWaitTime = 1000L * 60L * 60L * 24L * 30L;
+    // The wait time for the lottery is 1 second.
+    public static final long lotteryWaitTime = 1000L;
 
     private static long previousReferenceHashHeight = -1;
     private static ByteBuffer currentVote = null;
